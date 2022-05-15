@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{5D11D4F7-FC63-4D17-AA42-FF85269980F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalPassword.SquaresNSymbos.Backend", "GraphicalPassword.SquaresNSymbos.Backend\GraphicalPassword.SquaresNSymbos.Backend.csproj", "{BE111692-55CB-4BD9-B0A8-565C32622ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalPassword.SquaresNSymbols.Backend", "GraphicalPassword.SquaresNSymbos.Backend\GraphicalPassword.SquaresNSymbols.Backend.csproj", "{BE111692-55CB-4BD9-B0A8-565C32622ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

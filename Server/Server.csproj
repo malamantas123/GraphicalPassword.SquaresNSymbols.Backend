@@ -13,7 +13,7 @@
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GraphicalPassword.SquaresNSymbos.Backend\GraphicalPassword.SquaresNSymbos.Backend.csproj" />
+    <ProjectReference Include="..\GraphicalPassword.SquaresNSymbos.Backend\GraphicalPassword.SquaresNSymbols.Backend.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
