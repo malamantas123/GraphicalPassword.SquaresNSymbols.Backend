@@ -62,6 +62,7 @@ namespace Server
                     try
                     {
                         SendEmail(dbUser.Email, "Login link", $"Use this link to login => http://localhost:3000/slogin?email={dbUser.Email}");
+                        await dbContext.SaveChangesAsync();
                         return new BadRequestObjectResult("Incorrect login attempt limit reached. Special login link has been sent to you via email");
                     }
                     catch (Exception ex)
